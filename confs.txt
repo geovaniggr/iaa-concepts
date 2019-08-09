@@ -1,0 +1,86 @@
+{
+  // [Configurações Padrões do VSCode]
+  
+  "workbench.colorTheme": "Dracula",
+  "window.zoomLevel": -1,
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontSize": 12,
+
+  // [Reguas e Salvar]
+
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": false,
+
+  // [Estilos]
+
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+
+  // [Design do VSCode]
+
+  "editor.tokenColorCustomizations": {
+
+    "[Dracula]": {
+      "textMateRules": [
+        {
+          "scope": "comment.block",
+          "settings": {
+            "foreground": "#a2aef8",
+            "fontStyle": "bold"
+          }
+        },{
+          "scope":"comment.line",
+          "settings": {
+            "foreground": "#a2aef8",
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  },
+
+  "workbench.colorCustomizations": {
+
+    "editor.background": "#212121",
+    "editorLineNumber.foreground": "#525252",
+    "terminal.background": "#212121",
+    "panel.background": "#212121",
+    "panelTitle.inactiveForeground": "#525252",
+    "panel.border": "#525252",
+
+    "breadcrumb.background": "#333333",
+    "breadcrumb.foreground": "#ffff",
+
+    "sideBar.background": "#212121",
+    "sideBarSectionHeader.background": "#343434",
+    "sideBarSectionHeader.border": "#343434",
+    "sideBar.border": "#494949",
+    "list.hoverBackground": "#343434",
+
+    "tab.activeBackground": "#212121",
+    "tab.inactiveBackground": "#212121",
+    "tab.inactiveForeground": "#fff",
+
+    "activityBar.background": "#212121",
+    "activityBarBadge.background": "#098bc7",
+    "activityBar.border": "#212121",
+    "activityBar.inactiveForeground": "#989898",
+
+    "input.background": "#212121",
+    "input.foreground": "#bebebe",
+    "input.placeholderForeground": "#bebebe",
+    "selection.background": "#106ddc",
+
+    "statusBar.background": "#333333",
+    "menu.background": "#212121",
+    "menu.selectionBackground": "#343434",
+
+  },
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
+
+}
